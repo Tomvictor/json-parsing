@@ -11,5 +11,10 @@ print(r.status_code)
 
 print("body : ")
 
+raw_data= r.text
+print(raw_data)
 
-print(r.text)
+json_data = r.json()
+
+print(type(json_data))
+
