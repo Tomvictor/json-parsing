@@ -51,20 +51,20 @@ print(temp['title'])
 
 
 
-print("tesig . . . . .")
+# print("tesig . . . . .")
 
 
 
-req = requests.get('https://buildfromzero.com/tutorials/api/?format=json')
+# req = requests.get('https://buildfromzero.com/tutorials/api/?format=json')
 
-print("status code :")
-print(r.status_code)
+# print("status code :")
+# print(r.status_code)
 
-temp_data = r.text
+# temp_data = r.text
 
-print(temp_data)
+# print(temp_data)
 
-print(r)
+# print(r)
 
 
 
